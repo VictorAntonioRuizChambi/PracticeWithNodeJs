@@ -1,0 +1,1 @@
+cmd_Release/obj.target/miAddon.node := g++ -o Release/obj.target/miAddon.node -shared -pthread -rdynamic -m64  -Wl,-soname=miAddon.node -Wl,--start-group Release/obj.target/miAddon/hola.o -Wl,--end-group 
